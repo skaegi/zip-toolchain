@@ -26,7 +26,7 @@ services:
     service_id: hostedgit
     parameters:
       repo_name: '{{toolchain.name}}'
-      repo_url: 'https://github.com/open-toolchain/node-hello-world'
+      repo_url: '{{zip_url}}'
       type: clone
       has_issues: true
       enable_traceability: true
